@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>充值</title>
+    <style>
+        div {
+            position: absolute;
+            font-size: 100px;
+            font-weight: 700;
+            text-align: center;
+            top: 700px;
+            left: 260px;
+        }
+    </style>
+</head>
+<body>
+    {% if code == 200 %}
+        <div>充值成功！</div>
+    {% elif code == 400 %}
+        <div>充值失败！</div>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,13 @@
+flask
+pymysql
+flask_sqlalchemy
+cryptography
+flask_migrate
+flask_mail
+flask_cors
+Pillow
+requests
+pandas
+sqlalchemy
+qrcode
+python-memcached
